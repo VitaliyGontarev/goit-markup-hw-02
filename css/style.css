@@ -1,0 +1,30 @@
+:root { 
+ --main-text-color: #757575;
+ --text-title-color: #212121;
+ --accent-text: #2196F3;
+ --primary-white-color: #ffffff
+}
+body{
+    background-color: #ffffff;
+}
+         /* nav*/ 
+  .logo{
+      color: #000000;
+  }  
+  .logo .pat{
+    color: var(--accent-text);
+     }     
+     .link{
+         color: var(--text-title-color);
+     }
+.site-nav .link:focus,
+.site-nav .link:hover{
+ color: var(--accent-text);
+}
+.contacts-nav{
+    color:#757575;
+}
+.contacts-nav .link:focus,
+.contacts-nav .link:hover{
+    color: var(--accent-text);
+}
