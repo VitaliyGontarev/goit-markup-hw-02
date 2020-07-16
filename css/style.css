@@ -136,7 +136,15 @@ body {
   background-color: #ffffff;
   color: var(--text-title-color);
 }
+.filtres-second {
+  background-color: #f5f4fa;
+  color: #ffffff;
+}
+.filtres-second:hover {
+  background-color: var(--accent-text);
+}
 .filtres {
+  background-color: #f5f4fa;
   color: var(--text-title-color);
 }
 .filtres:focus,
