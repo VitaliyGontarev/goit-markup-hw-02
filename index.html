@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Github-home</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -26,42 +31,42 @@
     </header>
     <main>
       <!--head imagin-->
-      <section class="section">
+      <section class="section-head">
         <img src="./css/img/header.jpg" alt="команда" width="1600" />
-        <h1 class="section-title">Эффективные решения для вашего бизнеса</h1>
-        <a href="/" class="button">Заказать услугу</a>
+        <h1 class="section-head">Эффективные решения для вашего бизнеса</h1>
+        <button class="button-head">Заказать услугу</button>
       </section>
       <!--features-->
       <section class="section-features">
         <ul>
           <li>
             <img src="./css/img/antenna1.svg " alt="antenna" />
-            <h3 class="section-title">Внимание к деталям</h3>
-            <p>
+            <h3 class="section-title-detalis">Внимание к деталям</h3>
+            <p class="section-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
             <img src="./css/img/clock1.svg" alt="clok" />
-            <h3 class="section-title">Пунктуальность</h3>
-            <p>
+            <h3 class="section-title-detalis">Пунктуальность</h3>
+            <p class="section-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
             <img src="./css/img/vector.svg" alt="vector" />
-            <h3 class="section-title">Планирование</h3>
-            <p>
+            <h3 class="section-title-detalis">Планирование</h3>
+            <p class="section-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
             <img src="./css/img/astronaut1.svg" alt="astronaut" />
-            <h3 class="section-title">Современные технологии</h3>
-            <p>
+            <h3 class="section-title-detalis">Современные технологии</h3>
+            <p class="section-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -70,7 +75,7 @@
       </section>
       <!--development site-->
       <section class="section-development">
-        <h2 class="development-title">Чем мы занимаемся</h2>
+        <h2 class="section-title">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img src="./css/img/1.jpg" alt="noutbook" width="370" />
@@ -88,7 +93,7 @@
       </section>
       <!--our team-->
       <section class="section-team">
-        <h2 class="team-title">Наша команда</h2>
+        <h2 class="section-title">Наша команда</h2>
         <ul>
           <li>
             <img src="./css/img/nikolay.jpg" alt="foto" width="270" />
@@ -285,7 +290,7 @@
       </section>
       <!--Regular customers-->
       <section class="section-customers">
-        <h2 class="customers-title">Постоянные клиенты</h2>
+        <h2 class="section-title">Постоянные клиенты</h2>
         <ul>
           <li>
             <a href="#" class="customers-link"
@@ -322,8 +327,10 @@
     </main>
     <!--Footer-->
     <footer class="footer">
-      <a href="#">Web<span class="footer-pat">Studio</span> </a>
-      <address>
+      <a href="#" class="footer-logo"
+        >Web<span class="footer-pat">Studio</span>
+      </a>
+      <address class="address">
         <p class="footer-adress">г. Киев, пр-т Леси Украинки, 26</p>
         <a href="info@example.com" class="adress-link">info@example.com</a>
         <p><a href="" class="adress-link"> +38 099 111 11 11</a></p>
@@ -349,10 +356,10 @@
       <b class="title">Подпишитесь на рассылку</b>
       <ul>
         <li>
-          <a href="#" class="call">E-mail</a>
+          <button class="call">E-mail</button>
         </li>
         <li>
-          <a href="#" class="call-secondary">Подписаться</a>
+          <button class="call-secondary">Подписаться</button>
         </li>
       </ul>
     </footer>
